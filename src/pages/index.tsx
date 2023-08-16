@@ -270,9 +270,9 @@ function App() {
 
 export default App;
 export const Head = () => {
-  const title = "Uniswap V3 Fee Calculator - Uniswap.fish";
+  const title = "Retro V3 Fee Calculator - Retro.fish";
   const description =
-    "Calculate your Uniswap v3 positions fee returns, APY, APR, ROI, yields, and impermanent loss based on how much pool liquidity you provide.";
+    "Calculate your Retro v3 positions fee returns, APY, APR, ROI, yields, and impermanent loss based on how much pool liquidity you provide.";
 
   return <SEO title={title} description={description} />;
 };
