@@ -616,7 +616,7 @@ export const SelectPair = ({ fetchFromUrlParams }: SelectPairProps) => {
       {!showSelectTokenPage && !showSelectNetworkPage && (
         <>
           <Logo>
-            <span>🦄</span> UniswapCalculator
+            <span>🦄</span> RetroCalculator
             {appContext.state.token0 && !isSubmitLoading && (
               <div
                 onClick={() =>
