@@ -118,7 +118,7 @@ const Header = () => {
             <FeePercentage>{appContext.state.network.name}</FeePercentage>
           </InvisibleMobileSpan>
           <a
-            href={`https://info.uniswap.org/#/${appContext.state.network.id}/pools/${appContext.state.pool?.id}`}
+            href={`https://info.retro.finance/#/${appContext.state.network.id}/pools/${appContext.state.pool?.id}`}
             target="_blank"
             rel="noreferrer"
             aria-label="Open in Uniswap"

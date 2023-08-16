@@ -32,7 +32,7 @@ const FooterContainer = styled.div`
 const Footer = () => {
   return (
     <FooterContainer>
-      <div>
+      {/* <div>
         Crafted with <FontAwesomeIcon icon={faHeart} /> by{" "}
         <a
           rel="noreferrer"
@@ -77,7 +77,7 @@ const Footer = () => {
           Source Code (Github)
         </a>
         <a href="mailto:hello@uniswap.fish">Contact: hello@uniswap.fish</a>
-      </div>
+      </div> */}
     </FooterContainer>
   );
 };

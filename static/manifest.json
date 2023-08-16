@@ -1,9 +1,9 @@
 {
-  "short_name": "Uniswap.fish",
-  "name": "An all-in-one workspace for Uniswap liquidity providers",
+  "short_name": "Retro.fish",
+  "name": "An all-in-one workspace for Retro liquidity providers",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "favicon2.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },

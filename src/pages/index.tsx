@@ -192,9 +192,9 @@ function App() {
       {!state.pool && (
         <LandingContainer>
           <Landing>
-            <H2>Welcome to Uniswap.fish</H2>
+            <H2>Welcome to Retro.fish</H2>
             <p>
-              Uniswap.fish is an all-in-one workspace for Uniswap liquidity
+              Retro.fish is an all-in-one workspace for Retro liquidity
               providers — calculate, discover, analyze, manage & track
               positions, and more.
             </p>
@@ -213,7 +213,7 @@ function App() {
               </Link>
               <div className="calculator">
                 If you already have the pool in mind, select the pool on the
-                Uniswap Calculator
+                Retro Calculator
                 <span className="right">
                   <FontAwesomeIcon icon={faArrowRight} />
                 </span>
@@ -223,14 +223,14 @@ function App() {
               </div>
             </div>
 
-            <a
+            {/* <a
               className="uniswap-foundation"
               target="_blank"
               href="https://www.uniswapfoundation.org"
             >
               <span>Supported by</span>
               <img src="/uniswap-foundation.svg" />
-            </a>
+            </a> */}
           </Landing>
           <div className="select-pair">
             <SelectPair fetchFromUrlParams={true} />

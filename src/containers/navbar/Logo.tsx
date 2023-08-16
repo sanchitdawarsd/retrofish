@@ -213,30 +213,30 @@ const LINKS = [
     text: "Pool Overview",
     useGatsbyLink: true,
   },
+  // {
+  //   target: "_blank",
+  //   href: "https://gitcoin.co/grants/4203/uniswap-calculator-v3",
+  //   icon: "💰",
+  //   text: "Gitcoin Donation",
+  // },
+  // {
+  //   target: "_blank",
+  //   href: "https://github.com/chunrapeepat/uniswap.fish",
+  //   icon: "🧑🏻‍💻",
+  //   text: "Github Repository",
+  // },
   {
     target: "_blank",
-    href: "https://gitcoin.co/grants/4203/uniswap-calculator-v3",
-    icon: "💰",
-    text: "Gitcoin Donation",
-  },
-  {
-    target: "_blank",
-    href: "https://github.com/chunrapeepat/uniswap.fish",
-    icon: "🧑🏻‍💻",
-    text: "Github Repository",
-  },
-  {
-    target: "_blank",
-    href: "https://twitter.com/uniswapdotfish",
+    href: "https://twitter.com/Retro_finance",
     icon: "🐦",
-    text: "@uniswapdotfish",
+    text: "@Retro_finance",
   },
-  {
-    target: undefined,
-    href: "mailto:hello@uniswap.fish",
-    icon: "💌",
-    text: "hello@uniswap.fish",
-  },
+  // {
+  //   target: undefined,
+  //   href: "mailto:hello@uniswap.fish",
+  //   icon: "💌",
+  //   text: "hello@uniswap.fish",
+  // },
 ];
 
 const Logo = () => {
@@ -263,8 +263,8 @@ const Logo = () => {
       >
         <LogoContainer className={playLogoAnimation ? "hovered" : ""}>
           <img
-            alt="Uniswap.fish Logo"
-            src="/logo-only-fish.png"
+            alt="Retro.fish Logo"
+            src="/logo_retro.webp"
             className={playLogoAnimation ? "animated" : ""}
           />
           <div className={playLogoAnimation ? "bubble n1" : ""} />

@@ -110,13 +110,13 @@ const Navbar: React.FC = () => {
             </a>
           </GitcoinGrant> */}
           <Twitter
-            href="https://twitter.com/uniswapdotfish"
+            href="https://twitter.com/retro_finance"
             target="_blank"
             rel="noreferrer"
           >
             <FontAwesomeIcon icon={faTwitter} />
           </Twitter>
-          <Announcement />
+          {/* <Announcement /> */}
         </Menubar>
       </NavbarContainer>
       {/* <div style={{ marginBottom: 20 }}></div> */}

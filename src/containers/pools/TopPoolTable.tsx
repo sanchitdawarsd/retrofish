@@ -634,7 +634,7 @@ const TopPoolTable = ({ isLoading, pools, tokens }: TopPoolTableProps) => {
                 </FeePercentage>
                 <a
                   target="_blank"
-                  href={`https://info.uniswap.org/#/${
+                  href={`https://info.retro.finance/#/${
                     poolContext.state.chain?.id || NETWORKS[0].id
                   }/pools/${poolId}`}
                 >
