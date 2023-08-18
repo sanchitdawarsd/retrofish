@@ -239,25 +239,18 @@ const TopPosition = () => {
         (record.isActive ? "active" : "out-of-range").includes(String(value)),
       sorter: (a, b) => Number(a.positionId) - Number(b.positionId),
       render: (positionId, record) => (
-        <a
-          href={`https://app.uniswap.org/#/pool/${positionId}`}
-          target="_blank"
-          style={{
-            fontWeight: 600,
-          }}
+        <Tooltip
+          placement="right"
+          color="rgba(0,0,0,0.675)"
+          // title={`Switch the network to "${
+          //   getCurrentNetwork().name
+          // }" before viewing the position`}
         >
-          <Tooltip
-            placement="right"
-            color="rgba(0,0,0,0.675)"
-            title={`Switch the network to "${
-              getCurrentNetwork().name
-            }" before viewing the position`}
-          >
-            <Badge
-              status={record.isActive ? "success" : "default"}
-              text={positionId}
-            />
-            <div
+          <Badge
+            status={record.isActive ? "success" : "default"}
+            text={positionId}
+          />
+          {/* <div
               style={{
                 display: "inline-block",
                 color: "#999",
@@ -268,9 +261,8 @@ const TopPosition = () => {
               }}
             >
               <FontAwesomeIcon icon={faExternalLinkAlt} />
-            </div>
-          </Tooltip>
-        </a>
+            </div> */}
+        </Tooltip>
       ),
     },
     {
