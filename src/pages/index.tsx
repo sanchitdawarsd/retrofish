@@ -192,12 +192,12 @@ function App() {
       {!state.pool && (
         <LandingContainer>
           <Landing>
-            <H2>Welcome to Retro.fish</H2>
+            {/* <H2>Welcome to Retro.fish</H2>
             <p>
               Retro.fish is an all-in-one workspace for Retro liquidity
               providers — calculate, discover, analyze, manage & track
               positions, and more.
-            </p>
+            </p> */}
 
             <div>
               <Heading style={{ marginTop: 20 }}>How do I get started?</Heading>
@@ -211,7 +211,7 @@ function App() {
                 </div>
                 <div>Explore top pools with Pool Overview feature</div>
               </Link>
-              <div className="calculator">
+              {/* <div className="calculator">
                 If you already have the pool in mind, select the pool on the
                 Retro Calculator
                 <span className="right">
@@ -220,7 +220,7 @@ function App() {
                 <span className="down">
                   <FontAwesomeIcon icon={faArrowDown} />
                 </span>
-              </div>
+              </div> */}
             </div>
 
             {/* <a

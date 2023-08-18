@@ -688,15 +688,19 @@ const InstructionSection = ({ amount0, amount1 }: InstructionSectionProps) => {
             </div>
             <div>
               <a
-                href={`https://app.uniswap.org/#/add/${
-                  isNative(state.token1) ? "ETH" : state.token1?.id
-                }/${isNative(state.token0) ? "ETH" : state.token0?.id}/${
-                  state.pool?.feeTier
-                }${state.isFullRange ? "" : `?minPrice=${Pl}&maxPrice=${Pu}`}`}
+                href={`https://retro.finance/liquidity/managev3${
+                  state.isFullRange
+                    ? ""
+                    : `?currency0=${
+                        isNative(state.token1) ? "ETH" : state.token1?.id
+                      }&currency1=${
+                        isNative(state.token0) ? "ETH" : state.token0?.id
+                      }`
+                }`}
                 target="_blank"
               >
                 <PrimaryButton style={{ width: "100%" }}>
-                  Create Position on Uniswap V3
+                  Create Position on Retro
                 </PrimaryButton>
               </a>
             </div>
